@@ -1,0 +1,215 @@
+/* shop */
+
+
+*{
+    margin: 0;
+    font-family: arial;
+    border: border-box;
+}
+
+
+.hero{
+    background-image: url('Ad.jpg')
+}
+*{
+ border-radius: 10px;
+}
+.shop{
+    display: flex;
+    justify-content: space-evenly;
+    background-color:rgb(30,129,176);
+}
+
+
+.shop-section{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #eeeee4;
+    background-image: url('w2.jpg');
+background-size: cover;
+    
+    
+}
+
+
+
+
+
+.box{
+    border: 2px solid rgb(60, 16, 206);
+    height:450px;
+    width: 300px;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.box-img{
+    height: 80px;
+    width: 80px;
+    background-size:cover;
+    
+
+}
+.btn{
+    padding: 12px 12px;
+    background-color: #0056b3;
+}
+
+/* shop2 */
+.shop2{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box2{
+    border: 2px solid rgb(60, 16, 206);
+    height:450px;
+    width: 300px;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+.box-img2{
+    background-size: cover;
+
+}
+.shop2{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #eeeee4;
+background-image: url('w2.jpg');
+background-size: cover;
+}
+
+
+.border{
+    border:2px soild transparent
+}
+ .border:hover{
+    border:3px solid rgb(66, 52, 157)
+
+ }
+
+  
+
+/* Base styles for all devices */
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+/* Styles for larger screens (tablets and desktops) */
+@media only screen and (min-width: 768px) {
+    body {
+        font-size: 18px;
+    }
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .column {
+        width: 48%; /* Two columns for larger screens */
+    }
+}
+
+/* Styles for medium screens (phones in landscape mode) */
+@media only screen and (max-width: 767px) and (min-width: 481px) {
+    body {
+        font-size: 16px;
+    }
+
+    .container {
+        flex-direction: row;
+    }
+
+    .column {
+        width: 48%; /* Two columns for medium screens too */
+    }
+}
+
+/* Styles for small screens (phones in portrait mode) */
+@media only screen and (max-width: 480px) {
+    body {
+        font-size: 14px;
+    }
+
+    .container {
+        display: block; /* Stack columns for smaller screens */
+    }
+
+    .column {
+        width: 100%;
+        margin-bottom: 20px; /* Add gap between the stacked elements */
+    }
+}
+
+
+/* Base styles for all devices */
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+/* Styles for larger screens (tablets and desktops) */
+@media only screen and (min-width: 768px) {
+    body {
+        font-size: 18px;
+    }
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .column {
+        width: 48%; /* Two columns for larger screens */
+    }
+}
+
+/* Styles for medium screens (phones in landscape mode) */
+@media only screen and (max-width: 767px) and (min-width: 481px) {
+    body {
+        font-size: 16px;
+    }
+
+    .container {
+        flex-direction: row;
+    }
+
+    .column {
+        width: 48%; /* Two columns for medium screens too */
+    }
+}
+
+/* Styles for small screens (phones in portrait mode) */
+@media only screen and (max-width: 480px) {
+    body {
+        font-size: 14px;
+    }
+
+    .container {
+        display: block; /* Stack columns for smaller screens */
+    }
+
+    .column {
+        width: 100%;
+        margin-bottom: 20px; /* Add gap between the stacked elements */
+    }
+}
+ 
+@media only screen and (min-width:200px) and (max-width:1070px){
+    .shop-section{
+      width: 100%;
+      flex-direction: column;
+    }
+  
+  }
+  
+  @media only screen and (min-width:200px) and (max-width:1070px){
+    .shop2{
+      width: 100%;
+      flex-direction: column;
+    }
+  
+  }
